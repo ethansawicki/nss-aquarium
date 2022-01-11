@@ -1,0 +1,33 @@
+.main__fish-name {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+
+.main__fish-img { 
+   display: block;
+    
+}
+
+
+.main__fish-img img {
+    display: flex;
+    border-radius: 25px;
+    max-width: 500px;
+}
+
+.main__fish-care {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    flex-basis: 20%;
+    margin-left: 5%;
+
+    
+    
+    
+    
+    
+}
+
+

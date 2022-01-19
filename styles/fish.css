@@ -1,33 +1,30 @@
-.main__fish-name {
-    text-align: center;
-    margin: 40px;
-    font-size: 40px;
+.fish__name {
+    font-size: 20px;
+    text-decoration: underline;
 }
 
-.main__fish-img { 
-   display: block;
-    
+.fish__image {
+   display: flex;
+   border-radius: 25px;
+   max-width: 300px;
+   
 }
 
-
-.main__fish-img img {
+.fish__card {
     display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.575);
+    transition: 0.3s;
     border-radius: 25px;
-    max-width: 500px;
 }
 
-.main__fish-care {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    flex-basis: 20%;
-    margin-left: 5%;
 
     
     
     
     
-    
-}
+
 
 
